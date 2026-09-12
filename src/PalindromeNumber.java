@@ -33,13 +33,4 @@ public class PalindromeNumber {
         }
         return true;
     }
-
-
-    public static void main(String[] args) {
-        PalindromeNumber palindromeNumber = new PalindromeNumber();
-        System.out.println(palindromeNumber.isPalindrome(121)); // true
-        System.out.println(palindromeNumber.isPalindrome(-121)); // false
-        System.out.println(palindromeNumber.isPalindrome(10)); // false
-    }
-
 }
