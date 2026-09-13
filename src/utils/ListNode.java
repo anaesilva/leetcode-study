@@ -3,7 +3,7 @@ package utils;
 public class ListNode {
 
     public int val;
-    ListNode next;
+    public ListNode next;
 
     ListNode() {
     }
